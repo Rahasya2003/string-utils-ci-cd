@@ -7,6 +7,6 @@ def to_upper(text: str) -> str:
 def to_lower(text: str) -> str:
     return text.lower()
 
-def count_vowels(text: str) -> str:
+def count_vowels(text: str) -> int:
     vowels = 'aeiouAEIOU'
     return sum(1 for i in text if i in vowels)
